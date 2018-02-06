@@ -1,3 +1,7 @@
+#fade-out {
+  display:none;
+}
+
 #initially-hidden {
   display: none;
 }
