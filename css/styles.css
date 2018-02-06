@@ -14,3 +14,22 @@
 .clickable:hover {
   text-decoration: underline;
 }
+
+.green-background {
+  background-color: green;
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+.blue-background {
+  background-color: blue;
+}
+
+.border-patrol {
+  background-color: yellow;
+  border: black solid 4px;
+  margin: 3px;
+  padding: 2px;
+}

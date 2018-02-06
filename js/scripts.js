@@ -22,7 +22,31 @@ $(function() {
 
 $(function() {
   $(".clickable").click(function() {
-    $("#fade-in").slideToggle("slow", "linear");
-    $("#fade-out").slideToggle("fast", "linear");
+    $("#fade-in").fadeToggle("slow", "linear");
+    $("#fade-out").fadeToggle("fast", "linear");
+  });
+});
+
+$(document).ready(function() {
+  $("button#green").click(function() {
+    $("body").removeClass();
+    $("body").addClass("green-background");
+  });
+
+  $("button#yellow").click(function() {
+    $("body").removeClass();
+    $("body").addClass("yellow-background");
+  });
+
+  $("button#blue").click(function() {
+    $("body").removeClass();
+    $("body").addClass("blue-background");
+  });
+});
+
+$(document).ready(function() {
+  $("p").click(function() {
+    $("p").removeClass("border-patrol");
+    $("p").addClass("border-patrol");
   });
 });
